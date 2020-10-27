@@ -56,6 +56,12 @@ date,type,amount,from,to
 2019-10-05,remove,5.07,198,182
 2019-10-06,add,1060.08,188,198 
 ``` 
+> Note: There are currently three transformations defined, we used bank3:
+>  - bank1
+>  - bank2
+>  - bank3
+> You can add anotehr custom transformation to `streams` dict in `sobers.constants`.
+> See `Deep Dive on Transformations` below to see how to define a custom one
 
 ### Deep Dive on Transformation
 
