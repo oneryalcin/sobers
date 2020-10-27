@@ -60,7 +60,8 @@ date,type,amount,from,to
 >  - bank1
 >  - bank2
 >  - bank3
-> You can add anotehr custom transformation to `streams` dict in `sobers.constants`.
+>
+> You can add more custom transformation to `streams` dict in `sobers.constants`.
 > See `Deep Dive on Transformations` below to see how to define a custom one
 
 ### Deep Dive on Transformation
