@@ -125,7 +125,7 @@ Output Plugin serializes to the desired format
 from sobers.plugins import CSVOutPlugin, JsonOutPlugin
 from sobers.sober_types import DateType, EnumType, IntType, FloatType
 
-row = [datetime.date(2019, 10, 6), 'add', 1060, 8, 198, 188]
+row = [datetime.date(2019, 10, 6), 'add', 1060.08, 188, 198]
 
 # Create a CSV and Json output plugins
 out_schema = (DateType(), EnumType(('add', 'remove')), FloatType(), IntType(), IntType())
